@@ -24,11 +24,11 @@ Make sure you have the following installed on your machine:
 ### 1. Clone the Repository
 
 First, clone the repository from GitHub to your local machine:
-
-```bash
 git clone https://github.com/your-username/CISE-group-3-.git
 
-2. Backend Setup
+---
+
+### 2. Backend Setup
 2.1. Install Backend Dependencies
 Navigate to the backend/ folder and install the dependencies using npm:
 cd backend
@@ -46,7 +46,9 @@ Once the configuration is set, start the backend server:
 npm run start
 The backend server will run on http://localhost:8082 by default.
 
-3. Frontend Setup
+---
+
+### 3. Frontend Setup
 3.1. Install Frontend Dependencies
 Navigate to the frontend/ folder and install the dependencies:
 cd ../frontend
@@ -58,7 +60,9 @@ Create the .env file:
 touch .env
 MONGODB_URI=mongodb+srv://mdd2557:group3@speed.docah.mongodb.net/?retryWrites=true&w=majority
 
-Full Application Running
+---
+
+### Full Application Running
 To run both the backend and frontend:
 Start the backend by navigating to the backend/ folder and running:
 npm run start
